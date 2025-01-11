@@ -46,6 +46,10 @@ header {
     font-weight: 600;
 }
 
+.btn-style:hover{
+    padding: 20px 40px;
+}
+
 .bg-style {
     background-color: #C6E4D6;
     border-radius: 8px;
@@ -76,6 +80,11 @@ nav {
     border-radius: 8px;
     background-color: #F5F5F5;
     border: 1px solid rgb(0, 106, 80);
+}
+
+.btn:hover{
+    background-color: #006A50;
+    color: #ffffff;
 }
 
 /* banner section */
@@ -160,6 +169,9 @@ nav {
 }
 
 .vision1-bg {
+    background: rgba(84, 144, 245, 0);
+}
+.vision1{
     background: rgba(84, 144, 245, 0.2);
 }
 
@@ -181,6 +193,10 @@ nav {
     padding: 11px 20px;
     border-radius: 8px;
     border: none;
+}
+
+.vision1-btn:hover{
+    padding: 15px 25px;
 }
 
 .vision2 {
@@ -214,6 +230,10 @@ nav {
     border: none;
 }
 
+.vision2-btn:hover{
+    padding: 15px 25px;
+}
+
 .vision3 {
     border-radius: 16px;
     width: 410px;
@@ -245,17 +265,27 @@ nav {
     border: none;
 }
 
+.vision3-btn:hover{
+    padding: 15px 25px;
+}
+
 .vision-footer {
     padding: 48px 24px;
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
-    background-image: url('../assets/quote-bg.png');
-    background-repeat: no-repeat;
-    background-position: left top;
 }
 
 .vision-footer-bg {
-    /* background: rgb(255, 255, 255); */
+    background: rgb(255, 255, 255);
+    /* background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: left top; */
+}
+
+.vision-footer-quote{
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: left top;
 }
 
 .vision-footer-title {
@@ -370,10 +400,23 @@ nav {
     border: none;
 }
 
+.dunate-btn-style:hover{
+    background-color: #C6E4D6;
+}
+
 .donate-btn {
     display: flex;
     justify-content: space-between;
     padding: 0 104.5px 32px;
+}
+
+.dunate-btn2{
+    background-color: #aacfbee8;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
 }
 
 .input-box {
@@ -385,7 +428,8 @@ nav {
     color: rgba(14, 14, 14, 0.3);
     font-size: 20px;
     font-weight: 400;
-    margin: 0px 170px 32px 124px;
+    margin: 0px 124px 32px 124px;
+    border: none;
 }
 
 .dunate-btn {
