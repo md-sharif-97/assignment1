@@ -134,7 +134,6 @@ nav {
 }
 
 .card {
-    /* height: 244px; */
     width: 302px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -277,9 +276,6 @@ nav {
 
 .vision-footer-bg {
     background: rgb(255, 255, 255);
-    /* background-image: url('../assets/quote-bg.png');
-    background-repeat: no-repeat;
-    background-position: left top; */
 }
 
 .vision-footer-quote{
@@ -301,12 +297,6 @@ nav {
 .vision-footer h4 {
     margin-bottom: 4px;
 }
-
-/* .quote{
-    background-image: url('../assets/quote-bg.png');
-    background-repeat: no-repeat;
-    background-position: left top;
-} */
 
 /* section3 style */
 
@@ -445,6 +435,7 @@ nav {
     height: 395px;
     margin: 0 160px 80px 160px;
     padding: 80px 265px;
+    border-radius: 24px;
 }
 
 .foot-container h1 {
@@ -486,9 +477,6 @@ nav {
     justify-content: center;
     margin-bottom: 24PX;
 }
-
-
-
 
 .foot{
     margin: 0 160px 50px 160px;
